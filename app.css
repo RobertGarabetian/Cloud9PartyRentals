@@ -1,0 +1,29 @@
+
+ .navbar{
+    height: 100px;
+    background-color: rgb(9, 4, 32);
+ }
+
+.nav-link,
+.navbar-brand{
+    color: rgb(255, 221, 0);
+}
+
+.nav-link:hover {
+    color:cornsilk;
+}
+.navbar-brand:hover{
+    color: rgb(255, 221, 0);
+}
+#carouselOne .carousel,
+#carouselOne .carousel-item{
+    background-color:black;
+    height: 600px;
+}
+#carouselTwo .carousel,
+#carouselTwo .carousel-item{
+    background-color:rgb(206, 10, 10);
+    height: 600px;
+}
+
+
