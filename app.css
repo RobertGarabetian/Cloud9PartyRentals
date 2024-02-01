@@ -1,29 +1,51 @@
-
- .navbar{
-    height: 100px;
+body{
+    background-color: rgb(9, 4, 32);
+}
+.navbar{
+    height: 75px;
     background-color: rgb(9, 4, 32);
  }
-
 .nav-link,
 .navbar-brand{
     color: rgb(255, 221, 0);
 }
-
 .nav-link:hover {
     color:cornsilk;
 }
 .navbar-brand:hover{
     color: rgb(255, 221, 0);
 }
-#carouselOne .carousel,
-#carouselOne .carousel-item{
-    background-color:black;
-    height: 600px;
+
+#carouselExampleFade .carousel-item:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(
+       rgba(64, 64, 109, 0.45), 
+       rgba(0, 0, 75, 0.45)
+    );
+  }
+
+body{
+    font-family: 'Anton';
+    font-weight:100;
+    font-size: large ;
+
 }
-#carouselTwo .carousel,
-#carouselTwo .carousel-item{
-    background-color:rgb(65, 65, 65);
-    height: 600px;
+#navTitle{
+    font-size: x-large;
+    font-family: 'Anton';
+    font-weight:100;
 }
 
-
+.carousel-inner{
+    height: 700px;
+}
+#cardWithImage{
+    background-color: rgb(9, 4, 32);
+    color: rgb(255, 221, 0);
+}
