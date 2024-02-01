@@ -8,7 +8,8 @@
     <link rel="icon" type="image/png" href="pictures/cloud9.PNG">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Honk&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,700&display=swap"
+        rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="app.css">
@@ -40,41 +41,53 @@
             </div>
         </div>
     </nav>
-    <div id="carouselExampleFade" class="carousel slide carousel-fade">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="pictures/cloud9pic1.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="pictures/cloud9pic2.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="pictures/cloud9pic3.png" class="d-block w-100" alt="...">
+    <img class="bg-img" src="pictures/partypic.png" alt="">
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col text-center">
+            <div class="card h-100">
+                <img src="pictures/cloud9pic3.png " class="card-img-top" alt="...">
+                <div class="card-body">
+                    <!-- <h5 class="card-title">Card title</h5> -->
+                    <p class="card-text">Pictures print immediately! No having to wait days for
+                        them to be sent over!
+                    </p>
+                </div>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-    <div id="cardWithImage" class="card mb-3">
-        <div class="row g-0">
-            <div class="col-md-4">
-                <img src="pictures/cloud9tablepic.png" class="img-fluid" alt="...">
-            </div>
-            <div class="col-md-8">
+        <div class="col text-center">
+            <div class="card h-100">
+                <img src="pictures/cloud9pic1.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.</p>
+                    <!-- <h5 class="card-title">Card title</h5> -->
+                    <p class="card-text">Perfect for any occasion!</p>
+                </div>
+            </div>
+        </div>
+        <div class="col text-center">
+            <div class="card h-100">
+                <img src="pictures/cloud9pic2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <!-- <h5 class="card-title">Card title</h5> -->
+                    <p class="card-text">All packages come with table full of fun props that you can wear and hold in
+                        pictures!</p>
                 </div>
             </div>
         </div>
     </div>
+
+
+    <script>
+        const navEl = document.querySelector('.navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 56) {
+                navEl.classList.add('navbar-scrolled');
+            }
+            else if (window.scrollY <= 56) {
+                navEl.classList.remove('navbar-scrolled');
+            }
+        });
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>

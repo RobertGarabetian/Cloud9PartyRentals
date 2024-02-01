@@ -1,9 +1,24 @@
 body{
     background-color: rgb(9, 4, 32);
+    font-family: 'DM Sans';
+    font-weight:100;
+    font-size: large ;
+}
+.bg-img{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+/* Navbar stuff */
+#navTitle{
+    font-size: x-large;
+    font-family: 'DM Sans';
+    font-weight:100;
 }
 .navbar{
     height: 75px;
-    background-color: rgb(9, 4, 32);
+    background:transparent;
+    transition: all 0.5s;
  }
 .nav-link,
 .navbar-brand{
@@ -15,37 +30,17 @@ body{
 .navbar-brand:hover{
     color: rgb(255, 221, 0);
 }
-
-#carouselExampleFade .carousel-item:before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: linear-gradient(
-       rgba(64, 64, 109, 0.45), 
-       rgba(0, 0, 75, 0.45)
-    );
-  }
-
-body{
-    font-family: 'Anton';
-    font-weight:100;
-    font-size: large ;
-
-}
-#navTitle{
-    font-size: x-large;
-    font-family: 'Anton';
-    font-weight:100;
+.navbar-scrolled{
+    background-color: rgb(2, 29, 81);
+    box-shadow: 0 3px 10px rgb(0, 0, 0, 0.5);
 }
 
-.carousel-inner{
-    height: 700px;
+/* Card stuff */
+.card-text{
+    font-size: 24px;
 }
-#cardWithImage{
-    background-color: rgb(9, 4, 32);
-    color: rgb(255, 221, 0);
+.card-body{
+    background-color: rgb(160, 179, 179);
 }
+
+
