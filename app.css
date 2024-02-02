@@ -5,7 +5,7 @@ body{
     font-size: large ;
 }
 .bg-img{
-    height: 100vh;
+    height: 700px;
     width: 100vw;
     object-fit: cover;
 }
@@ -16,12 +16,16 @@ body{
     font-weight:100;
 }
 .navbar{
+    margin-top: 20px;
+    width: 1080px;
+    background-color: rgb(2, 29, 81);
+    border-radius: 80px;
     height: 75px;
-    background:transparent;
     transition: all 0.5s;
  }
 .nav-link,
 .navbar-brand{
+    margin-left: 25px;
     color: rgb(255, 221, 0);
 }
 .nav-link:hover {
@@ -31,16 +35,40 @@ body{
     color: rgb(255, 221, 0);
 }
 .navbar-scrolled{
+    margin-top: 0px;
+    width: 100vw;
+    border-radius: 0px;
     background-color: rgb(2, 29, 81);
     box-shadow: 0 3px 10px rgb(0, 0, 0, 0.5);
+}
+.navbar-nav{
+    margin-right: 25px;
+
 }
 
 /* Card stuff */
 .card-text{
     font-size: 24px;
+    color: rgb(255, 221, 0);
+
 }
 .card-body{
-    background-color: rgb(160, 179, 179);
+    background-color: rgb(2, 29, 81);
 }
+
+.col-6{
+    border-color: blueviolet;
+    background-color: brown;
+}
+
+.custom-border{
+    border: 2px solid #3498db; 
+    padding: 10px; 
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15;
+    margin-right: 15;
+}
+
 
 
