@@ -2,13 +2,45 @@ body{
     background-color: rgb(9, 4, 32);
     font-family: 'DM Sans';
     font-weight:100;
-    font-size: large ;
+    font-size: large;
 }
 .bg-img{
+    margin: 0;
+    background-image: url('pictures/partypic.png');    
     height: 700px;
     width: 100vw;
     object-fit: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: fixed;
+    background-attachment: fixed;
 }
+.card-picture{
+    border-radius: 40px 0 0 40px;
+}
+ #topCard{
+    margin-top: 30px;
+ }
+ .card{
+    transition: all 2s ease;
+ }
+ .custom-card{
+    width: 1000px;
+    border-radius: 40px;
+ }
+ .wrapping-box{
+    width:100vw;
+    margin-top: 1300px;
+    border-radius: 50px 50px 0 0;
+    padding: 30px;
+    background-color: rgb(2, 29, 81);
+ }
+
+
+
+
 /* Navbar stuff */
 #navTitle{
     font-size: x-large;
@@ -43,32 +75,4 @@ body{
 }
 .navbar-nav{
     margin-right: 25px;
-
 }
-
-/* Card stuff */
-.card-text{
-    font-size: 24px;
-    color: rgb(255, 221, 0);
-
-}
-.card-body{
-    background-color: rgb(2, 29, 81);
-}
-
-.col-6{
-    border-color: blueviolet;
-    background-color: brown;
-}
-
-.custom-border{
-    border: 2px solid #3498db; 
-    padding: 10px; 
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 15;
-    margin-right: 15;
-}
-
-
-
