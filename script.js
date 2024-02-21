@@ -11,10 +11,10 @@ const navEl = document.querySelector('.navbar');
 const cardEl = document.querySelectorAll('.custom-card');
 cardEl.forEach((element) => {
         window.addEventListener('scroll', () => {
-            if (window.scrollY > 80) {
+            if (window.scrollY > 70) {
                 element.classList.add('show');
             }
-            else if (window.scrollY <= 80) {
+            else if (window.scrollY <= 70) {
                 element.classList.remove('show');
             }
         });
