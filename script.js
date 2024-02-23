@@ -18,40 +18,7 @@ cardEl.forEach((element) => {
                 element.classList.remove('show');
             }
         });
-    });
-
-const movies = [
-    {
-        title: 'Alien',
-        score: 90,
-        year: 1990
-    },
-    {
-        title: 'Parasite',
-        score: 99,
-        year: 2018
-    },
-    {
-        title: 'La La Land',
-        score: 1000,
-        year: 2016
-    },
-    {
-        title: 'Paris, Texas',
-        score: 20,
-        year: 1600
-    },
-    {
-        title: '12 Angry Men',
-        score: 99,
-        year: 1970
-    },
-    {
-        title: 'Sharknado',
-        score: 40,
-        year: 2005
-    }
-]
+    }); 
 
 // const goodMovies = movies.filter(film =>{
 //     return film.score > 70
