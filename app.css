@@ -33,14 +33,14 @@ body{
     z-index: 1;
     box-shadow: 0 3px 10px rgb(0, 0, 0, 0.5);;
     width:100vw;
-    margin: 1700px 0 0 0;
+    margin: 2000px 0 0 0;
     border-radius: 50px 50px 0 0;
     background-color: rgb(175, 195, 232);
  }
 
 /* Card stuff */
 .card-picture{
-    border-radius: 40px 0 0 40px;
+    border-radius: 50px;
 }
  #topCard{
     margin-top: 60px;
@@ -48,27 +48,27 @@ body{
 
  .custom-card{
     margin-top: 30px;
-    width: 1000px;
-    border-radius: 40px;
+    width: 80vw;
+    border-radius: 50px;
     opacity: 0;
     transition: all 1s;
     filter: blur(2px);
     transform: translateX(-100%);
-    background-color: transparent;
-    background: linear-gradient(to left, rgba(255, 217, 0, 0.319), rgb(255, 215, 0) 90%);
+    /* background-color: transparent; */
+    background-color: rgb(0, 39, 113);
     color: rgb(124, 138, 164);
  }
  .show{
     margin-top: 30px;
-    width: 1000px;
-    border-radius: 40px;
+    width: 80vw;
+    border-radius: 50px;
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
-    background-color: transparent;
-    background: linear-gradient(to left, rgba(255, 217, 0, 0.319), rgb(255, 215, 0) 90%);
+    /* background-color: transparent; */
+    background-color: rgb(0, 39, 113);
     color: rgb(175, 195, 232);
-    box-shadow: 0 3px 5px rgb(0, 0, 0, 0.5);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
     border: 0;
  }
  .card:nth-child(1){
@@ -95,7 +95,7 @@ body{
 }
 .navbar{
     margin-top: 40px;
-    width: 1080px;
+    width: 70vw;
     background-color: rgb(175, 195, 232);
     border-radius: 80px;
     height: 75px;
@@ -131,6 +131,7 @@ body{
     margin-top: 70px;
     background-color: rgb(113, 126, 151);
     width: 100vw;
+    display: flex;
 }
 .left-box{
     flex: 1;
@@ -155,7 +156,6 @@ body{
 }
 .con{
     display: flex;
-
 }
 
 .right-box img{
@@ -184,7 +184,7 @@ body{
 
 /* for packages page */
 .wrapping-box-packages{
-    margin-top: 600px;
+    margin-top: 1200px;
     background-color: rgb(175, 195, 232);
     width:100vw;
     height: auto;
@@ -204,7 +204,7 @@ body{
 }
 
 .card-p{
-    width: 30vw;
+    width: 60vw;
     height: 150px;
 }
 
@@ -212,4 +212,18 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.cti{
+    font-size: 46px; 
+    font-weight: 800; 
+    color: rgb(136, 36, 142); 
+    /* text-align:left;  */
+    margin: 10px 0 0 10px;
+
+}
+.ct{
+    margin-top: 10px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 400;
 }
