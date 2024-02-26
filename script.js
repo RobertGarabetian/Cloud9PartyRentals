@@ -20,9 +20,3 @@ cardEl.forEach((element) => {
         });
     }); 
 
-// const goodMovies = movies.filter(film =>{
-//     return film.score > 70
-// })
-
-// const badMovies = movies.filter(film => film.score < 50)
-// const newMovies = movies.filter(film => film.year > 1990)
