@@ -81,6 +81,10 @@ body{
     transition-delay: 200ms;
  }
 
+ .cthp{
+    font-size: 25px;
+    font-weight: 250;
+ }
 
  
 
@@ -184,7 +188,7 @@ body{
 
 /* for packages page */
 .wrapping-box-packages{
-    margin-top: 1200px;
+    margin-top: 1400px;
     background-color: rgb(175, 195, 232);
     width:100vw;
     border-radius: 50px 50px 0 0;
@@ -205,6 +209,7 @@ body{
 .card-p{
     width: 60vw;
     height: 150px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 .col{
@@ -227,8 +232,8 @@ body{
     font-weight: 400;
 }
 .card-img-top{
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 90vh;
 }
 
 /* about us page */
@@ -244,10 +249,9 @@ body{
 } */
 .wrapping-box-about-us{
     display: flex;
-    margin: 0 0 0 0;
     background-color: rgb(175, 195, 232);
     width:100vw;
-    height: 100vh;
+    height: auto;
     border-radius: 0;
     padding: 50px;
     justify-content: center;
@@ -274,6 +278,7 @@ body{
     font-weight: 300;
     color:rgb(0, 0, 0);
 }
+
 .text{
     border-radius: 10px;
     padding: 40px;
@@ -281,12 +286,35 @@ body{
     background-color:rgb(131, 146, 174);
     text-align: left;
     margin: 50px;
+    margin-bottom: 20px;
     justify-content: center;
     align-items: center;
     font-size: 30px;
     font-weight: 100;
     color:#ffffff;
+    opacity: 0;
+    filter: blur(0);
+    transition-duration: 1s;
+
 }
+.text-show{
+    opacity: 1;
+    border-radius: 10px;
+    padding: 40px;
+    width: 50vw;
+    background-color:rgb(131, 146, 174);
+    text-align: left;
+    margin: 50px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 100;
+    color:#ffffff;
+    /* transition-delay: 200ms; */
+    transition-duration: 1s;
+}
+.text-show h2,
 .text h2{
     padding: 20px;
     background-color:rgb(131, 146, 174);
@@ -296,4 +324,19 @@ body{
     font-size: 50px;
     font-weight: 300;
     color:rgb(255, 225, 225)fff;
+}
+.smtg{
+    margin-bottom: 20px;
+}
+.spanM{
+    color:white;
+    font-weight:450;
+    transition-duration: 0.5s;
+
+}
+.spanM-show{
+    color:plum; 
+    font-weight: 450;
+    transition-duration: 3s;
+
 }

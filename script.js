@@ -20,3 +20,25 @@ cardEl.forEach((element) => {
         });
     }); 
 
+const textEl = document.querySelector('.text');
+    window.addEventListener('scroll', () => {
+        if(window.scrollY > 50){
+            textEl.classList.add('text-show');
+            textEl.classList.remove('text');
+        }
+        else if (window.scrollY <= 50){
+            textEl.classList.remove('text-show');
+            textEl.classList.add('text');
+        }
+});
+const spanEl = document.querySelector('.spanM');
+    window.addEventListener('scroll', () => {
+        if(window.scrollY > 50){
+            spanEl.classList.add('spanM-show');
+            spanEl.classList.remove('spanM');
+        }
+        else if (window.scrollY <= 50){
+            spanEl.classList.remove('spanM');
+            spanEl.classList.add('spanM-show');
+        }
+});
