@@ -1,0 +1,212 @@
+body{
+    position: absolute;
+    background-color: rgb(175, 195, 232);
+    font-family: 'DM Sans';
+    font-weight:100;
+    font-size: large;
+}
+
+/* Navbar stuff */
+#navTitle{
+    font-size: x-large;
+    font-family: 'DM Sans';
+    font-weight:100;
+}
+.navbar{
+    margin-top: 40px;
+    width: 70vw;
+    background-color: rgb(175, 195, 232);
+    border-radius: 80px;
+    height: 75px;
+    transition: all 0.5s;
+    box-shadow: 0 3px 10px rgb(0, 0, 0, 0.5);
+
+ }
+.nav-link,
+.navbar-brand{
+    margin-left: 25px;
+    color: rgb(45, 45, 45);
+}
+.navbar-brand:hover{
+    color:cornsilk;
+}
+.nav-link:hover {
+    color:cornsilk;
+}
+
+.navbar-scrolled{
+    margin-top: 0px;
+    width: 100vw;
+    border-radius: 0px;
+    background-color: rgb(175, 195, 232);
+    box-shadow: 0 3px 10px rgb(0, 0, 0, 0.5);
+}
+.navbar-nav{
+    margin-right: 25px;
+}
+
+
+
+
+.wrapping-box-contact{
+    display: flex;
+    background-color: rgb(175, 195, 232);
+    width:100vw;
+    height: auto;
+    border-radius: 0;
+    padding: 50px;
+    justify-content: center;
+    z-index: -2;
+    margin-top: 300px;
+}
+.wrapping-box-contact h1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    font-weight: 600;
+    color:#000;
+}
+
+.textC{
+    border-radius: 10px;
+    padding: 40px;
+    width: 50vw;
+    background-color:rgb(131, 146, 174);
+    text-align: center;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 100;
+    color:#ffffff;
+}
+
+.wrapping-box-contact h3{
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 300;
+    color:rgb(0, 0, 0);
+}
+
+.justify-content-start{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    margin: 10px 0 0 10px;
+}
+.justify-content-end{
+    width: 50vw;
+    margin: 10px 10px 0 0;  
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.instagram-button {
+    display: inline-block;
+    padding: 30px 40px;
+    background: linear-gradient(135deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45);
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 28px;
+    font-weight: bold;
+    border: none;
+    width: 30vw;
+    margin: 10px 0 10px 0;
+
+}
+
+.instagram-button:hover {
+    background: linear-gradient(135deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45);
+    background-size: 200% 200%;
+    animation: gradientAnimation 4s ease infinite;
+}
+
+.email-button {
+    display: inline-block;
+    padding: 30px 40px 30px 40px; /* Adjust padding as needed */
+    background: linear-gradient(135deg, #4FC3F7, #29B6F6, #03A9F4, #039BE5, #0288D1, #0277BD, #01579B, #80D8FF, #B3E5FC);
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 28px; /* Adjust font size as needed */
+    font-weight: bold;
+    border: none;
+    width: 30vw;
+    margin: 10px 0 10px 0;
+}
+
+.email-button:hover {
+    background: linear-gradient(135deg, #4FC3F7, #29B6F6, #03A9F4, #039BE5, #0288D1, #0277BD, #01579B, #80D8FF, #B3E5FC);
+    background-size: 200% 200%;
+    animation: gradientAnimation 4s ease infinite;
+}
+.phone-button{
+    display: inline-block;
+    padding: 30px 40px; /* Adjust padding as needed */
+    background: linear-gradient(135deg, #4CAF50, #66BB6A, #81C784, #A5D6A7, #C8E6C9, #E8F5E9, #F1F8E9, #F9FBE7, #FFF9C4);
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 28px; /* Adjust font size as needed */
+    font-weight: bold;
+    border: none;
+    width: 30vw;
+    margin: 10px 0 10px 0;
+
+}
+
+.phone-button:hover {
+    background: linear-gradient(135deg, #4CAF50, #66BB6A, #81C784, #A5D6A7, #C8E6C9, #E8F5E9, #F1F8E9, #F9FBE7, #FFF9C4);
+    background-size: 200% 200%;
+    animation: gradientAnimation 4s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+@media screen and (max-width: 800px) {
+    .wrapping-box-contact{
+        display: flex;
+        background-color: rgb(175, 195, 232);
+        width:100vw;
+        height: auto;
+        border-radius: 0;
+        padding: 0;
+        justify-content: center;
+        z-index: -2;
+        margin-top: 300px;
+        flex-wrap: wrap;
+    }
+    .justify-content-start{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        margin: 10px 0 0 0;
+    }
+    .justify-content-end{
+        width: 100vw;
+        margin: 10px 0 0 0;  
+        text-align:center;
+    }
+    .phone-button,
+    .email-button,
+    .instagram-button{
+        width: 80vw;
+    }
+    .box{
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+}
