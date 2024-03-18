@@ -109,7 +109,7 @@ body{
 .left-box{
     flex: 1;
     height: 300px;
-    width: 50vw;
+    width: 40vw;
     align-items: center;
     justify-content: center;
     margin: 20px 20px 30px 10px;
@@ -119,11 +119,11 @@ body{
     border-radius: 40px;
     color: rgb(255, 255, 255);
     box-shadow: 0 3px 10px rgb(0, 0, 0, 0.5);
-    font-size: 25px;    
+    font-size: 35px;    
 }
 .right-box{
     border-radius: 30px;
-    width: 50vw;
+    width: 40vw;
     height: 450px;
     background-image: url('pictures/cloud9tablepic.png');
     flex: 1;
@@ -157,7 +157,7 @@ body{
     
 
     .left-box{
-        height: 300px;
+        height: auto;
         margin: 20px 20px 10px 20px;
         padding: 20px;
     
