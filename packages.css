@@ -1,0 +1,115 @@
+.bg-img{
+    margin: 0;
+    background-image: url('pictures/partypic.png');    
+    height: auto;
+    max-width: 100vw;
+    object-fit: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: left top;
+    background-attachment: fixed;
+    text-align: center;
+    position: absolute;
+    z-index: -1;
+}
+.wrapping-box-packages{
+    background-color: rgb(175, 195, 232);
+    max-width:100vw;
+    width:100vw;
+    border-radius: 50px 50px 0 0;
+    padding: 50px;
+    z-index: -1;
+    height: auto;
+    margin: 400px 0 0 0 ;
+}
+.wrapping-box-packages h1{
+    display: flex;
+    padding: 20px;
+    border-radius: 20px;
+    color:#000;
+    font-size: 70px;
+    font-weight: 600;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.wrapping-box-packages h5{
+    text-align: center;
+}
+.card-p{
+    width: 60vw;
+    height: 150px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100vw; */
+}
+.cti{
+    font-size: 46px; 
+    font-weight: 800; 
+    color: rgb(136, 36, 142); 
+    margin: 10px 0 0 10px;
+
+}
+.ct{
+    margin-top: 10px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 400;
+}
+.card-img-top{
+    max-width: auto;
+    height: 90vh;
+}
+@media screen and (max-width: 800px) {
+    .wrapping-box-packages{
+        margin: 300px 0 0 0;
+        background-color: rgb(175, 195, 232);
+        width:100vw;
+        height:100vh;
+        border-radius: 50px 50px 0 0;
+        padding: 0px;
+        z-index: -1;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .col{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 100vw;
+    }
+    .card-img-top{
+        max-width: 100vw;
+        height: auto;
+    }
+    #cards{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        width: 100vw;
+        max-width: 100vw;
+    }
+    .card-c{
+        margin-top: 30px;
+    }
+    #packages-col{
+        max-width: 100vw;
+    }
+
+    .card-p{
+        width: 100vw;
+        height: auto;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+    }
+}

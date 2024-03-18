@@ -6,48 +6,6 @@ body{
     font-size: large;
 }
 
-/* Navbar stuff */
-#navTitle{
-    font-size: x-large;
-    font-family: 'DM Sans';
-    font-weight:100;
-}
-.navbar{
-    margin-top: 40px;
-    width: 70vw;
-    background-color: rgb(175, 195, 232);
-    border-radius: 80px;
-    height: 75px;
-    transition: all 0.5s;
-    box-shadow: 0 3px 10px rgb(0, 0, 0, 0.5);
-
- }
-.nav-link,
-.navbar-brand{
-    margin-left: 25px;
-    color: rgb(45, 45, 45);
-}
-.navbar-brand:hover{
-    color:cornsilk;
-}
-.nav-link:hover {
-    color:cornsilk;
-}
-
-.navbar-scrolled{
-    margin-top: 0px;
-    width: 100vw;
-    border-radius: 0px;
-    background-color: rgb(175, 195, 232);
-    box-shadow: 0 3px 10px rgb(0, 0, 0, 0.5);
-}
-.navbar-nav{
-    margin-right: 25px;
-}
-
-
-
-
 .wrapping-box-contact{
     display: flex;
     background-color: rgb(175, 195, 232);
@@ -99,7 +57,7 @@ body{
     width: 50vw;
     margin: 10px 0 0 10px;
 }
-.justify-content-end{
+.textC{
     width: 50vw;
     margin: 10px 10px 0 0;  
 }
@@ -150,7 +108,7 @@ body{
 .phone-button{
     display: inline-block;
     padding: 30px 40px; /* Adjust padding as needed */
-    background: linear-gradient(135deg, #4CAF50, #66BB6A, #81C784, #A5D6A7, #C8E6C9, #E8F5E9, #F1F8E9, #F9FBE7, #FFF9C4);
+    background: linear-gradient(135deg, #1F6C2A, #388E3C, #43A047, #4CAF50, #66BB6A, #81C784, #A5D6A7, #C8E6C9, #E8F5E9);
     color: #FFFFFF;
     text-decoration: none;
     border-radius: 5px;
@@ -163,7 +121,7 @@ body{
 }
 
 .phone-button:hover {
-    background: linear-gradient(135deg, #4CAF50, #66BB6A, #81C784, #A5D6A7, #C8E6C9, #E8F5E9, #F1F8E9, #F9FBE7, #FFF9C4);
+    background: linear-gradient(135deg, #1F6C2A, #388E3C, #43A047, #4CAF50, #66BB6A, #81C784, #A5D6A7, #C8E6C9, #E8F5E9);
     background-size: 200% 200%;
     animation: gradientAnimation 4s ease infinite;
 }
@@ -174,6 +132,26 @@ body{
     100% { background-position: 0% 50%; }
 }
 @media screen and (max-width: 800px) {
+    .navbar{
+        margin: 0 0 0 0;
+        width: 100vw;
+        border-radius: 0px;
+        background-color: rgb(175, 195, 232);
+        box-shadow: 0 3px 10px rgb(0, 0, 0, 0.5);
+        text-align: left;
+     }
+    .navbar-scrolled{
+        margin: 0 0 0 0;
+        width: 100vw;
+        border-radius: 0px;
+        background-color: rgb(175, 195, 232);
+        box-shadow: 0 3px 10px rgb(0, 0, 0, 0.5);
+        text-align: left;
+    }
+    .navbar-brand{
+        margin-left: 10px;
+        color: rgb(45, 45, 45);
+    }
     .wrapping-box-contact{
         display: flex;
         background-color: rgb(175, 195, 232);
@@ -208,5 +186,15 @@ body{
         flex-wrap: wrap;
         height: auto;
     }
-
+    .wrapping-box-contact{
+        display: flex;
+        background-color: rgb(175, 195, 232);
+        width:100vw;
+        height: auto;
+        border-radius: 0;
+        padding: 50px;
+        justify-content: center;
+        z-index: -2;
+        margin-top: 150px;
+    }
 }

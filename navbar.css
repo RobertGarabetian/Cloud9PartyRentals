@@ -1,0 +1,68 @@
+#navTitle{
+    font-size: x-large;
+    font-family: 'DM Sans';
+    font-weight:100;
+}
+.navbar{
+    margin-top: 40px;
+    width: 80vw;
+    background-color: rgb(175, 195, 232);
+    border-radius: 80px;
+    height: 75px;
+    transition: all 0.5s;
+    box-shadow: 0 3px 10px rgb(0, 0, 0, 0.5);
+ }
+ .collapse,
+ .navbar-collapse{
+    margin-top: 0;
+    background-color: rgb(175, 195, 232);
+    border-radius: 0;
+ }
+.nav-link,
+.navbar-brand{
+    margin-left: 25px;
+    color: rgb(45, 45, 45);
+}
+.navbar-brand:hover{
+    color:cornsilk;
+}
+.nav-link:hover {
+    color:cornsilk;
+}
+.navbar-scrolled{
+    margin-top: 0px;
+    width: 100vw;
+    border-radius: 0px;
+    background-color: rgb(175, 195, 232);
+    box-shadow: 0 3px 10px rgb(0, 0, 0, 0.5);
+}
+.navbar-nav{
+    margin-right: 25px;
+}
+.navbar-toggler{
+    background-color: rgb(175, 195, 232);
+}
+
+@media screen and (max-width: 800px) {
+    .navbar{
+        margin: 0 0 0 0;
+        width: 100vw;
+        border-radius: 0px;
+        background-color: rgb(175, 195, 232);
+        box-shadow: 0 3px 10px rgb(0, 0, 0, 0.5);
+        text-align: left;
+     }
+    .navbar-scrolled{
+        margin: 0 0 0 0;
+        width: 100vw;
+        border-radius: 0px;
+        background-color: rgb(175, 195, 232);
+        box-shadow: 0 3px 10px rgb(0, 0, 0, 0.5);
+        text-align: left;
+    }
+    .navbar-brand{
+        margin-left: 10px;
+        color: rgb(45, 45, 45);
+    }
+
+}
